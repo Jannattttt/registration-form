@@ -15,7 +15,7 @@ document.getElementById('registrationForm').addEventListener('submit', function 
     const verificationCode = Math.floor(100000 + Math.random() * 900000);
 
     // Simulate sending an email
-    alert(`A verification email has been sent to ${email} with the code: ${verificationCode}`);
+    alert(`A verification email has been sent to ${email}`);
 
     // Store verification code for user session (for real apps, do this on the server)
     sessionStorage.setItem('verificationCode', verificationCode);

@@ -14,7 +14,7 @@ body {
 /* Container */
 .container {
     background-color: #40556A;
-    padding: 20px 30px;
+    padding: 20px 30px 50px 30px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     width: 400px;
@@ -87,10 +87,14 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+    body {
+        background-color: #40556A;
+    }
+
     .container {
-        width: 100%;
-        padding: 10px 15px;
-        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        width: 85%;
     }
 
     h2 {
@@ -98,11 +102,11 @@ button:hover {
     }
 
     label {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     input, button {
         font-size: 12px;
-        padding: 6px;
+        padding: 10px;
     }
 }
