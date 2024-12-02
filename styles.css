@@ -1,4 +1,3 @@
-/* General Styling */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #182B44;
@@ -11,7 +10,6 @@ body {
     height: 100vh;
 }
 
-/* Container */
 .container {
     background-color: #40556A;
     padding: 20px 30px 50px 30px;
@@ -33,7 +31,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Form */
 form {
     display: flex;
     flex-direction: column;
@@ -70,7 +67,6 @@ button:hover {
     background-color: #146f87;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .container {
         padding: 15px 20px;
